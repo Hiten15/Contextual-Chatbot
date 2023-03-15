@@ -1,0 +1,40 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting","Hi there, how can I help?","Hi, what can i do for you?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "invest",
+         "patterns": ["I want to invest", "How can i invest?","How to invest money ?", "How much money can i invest? "],
+         "responses": ["You can invest in Stocks, Mutual Funds, SIP. To invest click the link below","To check our investment methods please click below."]
+        },
+        {"tag": "market",
+         "patterns": ["What is the market today?", "What are today's highlights" ,"Today's nifty value"],
+         "responses": ["Please click on below link to see today's market","You can check the market by clicking the below link."]
+        },
+        {"tag": "payments",
+         "patterns": ["Through which methods can i pay", "Do you accept card?", "Are you cash only?" ,"How to do payments? ","What are the payments method"],
+         "responses": ["We accept payments through Debit or Credit cards,Online Banking and UPI", "We accept most major credit cards"]
+        },
+        {"tag": "account",
+         "patterns": ["How to open a trading account ?", "How to open account ?","How to open a deemat account ?"],
+         "responses": ["Click on the below link, and fill in your details."]
+        },
+        {"tag": "close",
+         "patterns": ["How to close my account ?", "How can i close my deemat account ?","How can i close my trading account ?"],
+         "responses": ["Closing a demat account involves visiting the DP office or branch by any of the demat account holders and submission of requisite form and documents"]
+        },
+        {"tag": "withdraw",
+         "patterns": ["How can i withdraw funds ?"],
+         "responses": ["Click on below link to withdraw your funds."]
+        }       
+   ]
+}
